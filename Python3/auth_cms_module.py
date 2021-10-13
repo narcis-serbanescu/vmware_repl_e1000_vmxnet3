@@ -18,7 +18,7 @@ from termcolor import colored
 s = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
 s.verify_mode = ssl.CERT_NONE
 vc_user = "vcenter@ssm"
-vc_password = ""
+vc_password = "********"
 
 
 def cms_site():
